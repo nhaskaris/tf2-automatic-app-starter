@@ -2,10 +2,7 @@
 - `cd app && yarn install`
 - create a `.env` file from the template at `template.env`
 - create a `/bots/bot1.env` file from the template at `/bots/template.env` and add your bots account info
-- start the minio service
-- go to http://localhost:9001
-- create a bucket called `tf2-automatic`
-- start everything
+- create `s3_config.json` file from the template at `template.s3_config.json` and make sure seaweed credentials match with `/bots/*.env`
 
 # Developing your app
 Just write your code in the `./app` folder!  
